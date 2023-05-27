@@ -50,3 +50,8 @@ int as;
 std::tie(std::ignore, as) = tpe; //省略第一个参数
 std::cout << as << std::endl;
 ```
+
+# std::array
+
+C++11新增的STL容器，设计目的是提供与数组相似的功能。不过他与其他的STL容器有一些不同：（1）array的元素是存放在实力内部而非在堆上分配空间，（2）array的内部大小必须在编译期确定，（3）array的ctor、dtor 和 copy ctor 是隐式声明的
+
