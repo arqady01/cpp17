@@ -20,11 +20,12 @@ auto[v1, v2] = pr;
 
 ```cpp
 std::map<int, double> m { {1, 20.3}, {2, 15.8} };
+//假设只需要开头元素：
+auto[first_key, first_value] = *m.begin();
+cout << "f_key: " << first_key << ", f_value: " << first_value << endl;
+//循环遍历：
 for(auto&[key, value] : m) {
-    //假设只需要开头元素：
-    auto[first_key, first_value] = *m.begin();
-    //循环遍历：
-    std::cout << "key: " << key << ", value: " << value << std::endl;
+    cout << "key: " << key << ", value: " << value << endl;
 }
 ```
 
