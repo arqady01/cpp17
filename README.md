@@ -1,8 +1,8 @@
 # 结构化绑定
 
-[What](#std::array)
+[# 结构化绑定](#std::array)
 
-[What](# std::array)
+[# 结构化绑定](# std::array)
 
 
 1.绑定到数组
