@@ -16,6 +16,10 @@ std::pair pr {"cpp", "refer"};
 auto[v1, v2] = pr;
 ```
 
+README/#6
+
+README.md/#6
+
 3.结构化绑定到 map 数据结构
 
 ```cpp
