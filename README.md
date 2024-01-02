@@ -1,6 +1,6 @@
 # 结构化绑定
 
-[起飞](https://www.baidu.com)
+[起飞](https://www.baidu.com){:target="_blank"}
 
 
 1.绑定到数组
